@@ -17,5 +17,5 @@ jobs:
       run: yarn format:check
     - name: Check quality with ESLint
       run: yarn lint
-      name: Run Automated Tests
+    - name: Run Automated Tests
       run: yarn test
